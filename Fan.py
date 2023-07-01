@@ -38,13 +38,13 @@ class Fan:
     
     # setter method for each
     def set_speed(self, speed):
-        self.__speed = speed
+        self.__speed = int(speed)
 
     def set_on(self, on):
         self.__on = on    
 
     def set_radius(self, radius):
-        self.__radius = radius
+        self.__radius = float(radius)
 
     def set_color(self, color):
-        self.__color = color
+        self.__color = str(color)
