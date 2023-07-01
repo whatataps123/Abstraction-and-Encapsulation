@@ -10,12 +10,20 @@ class Car:
         # _ _speed (for the car’s current speed)
         self.__speed = speed
 # The class should also have the following methods:
-# • accelerate()
-# The accelerate method should add 5 to the speed data attribute each time it is called.
-# • brake()
-# The brake method should subtract 5 from the speed data attribute each time it is called.
-# • get_speed()
-# The get_speed method should return the current speed.
+    # • accelerate()
+    def accelerate(self):
+    # The accelerate method should add 5 to the speed data attribute each time it is called.
+        self.__speed += 5
+    
+    # • brake()
+    def brake(self):
+    # The brake method should subtract 5 from the speed data attribute each time it is called.
+        self.__speed -= 5
+    
+    # • get_speed()
+    def get_speed(self):
+    # The get_speed method should return the current speed.
+        return self.__speed
 # Next, design a program that creates a Car object then calls the accelerate method five times. 
 # After each call to the accelerate method, get the current speed of the car and display it. 
 # Then call the brake method five times. 
