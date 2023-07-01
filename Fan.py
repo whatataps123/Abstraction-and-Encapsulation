@@ -7,7 +7,7 @@ class Fan:
     MEDIUM = 2
     FAST = 3
 
-    def __init__(self, speed, on, radius, color):
+    def __init__(self, speed=SLOW, on=False, radius=5, color="blue"):
         # priv int data named speed
         self.__speed = int(speed)
         # priv bool data named on
