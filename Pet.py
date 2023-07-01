@@ -3,7 +3,7 @@
 # Write a class named Pet, which should have the following data attributes:
 class Pet:
     # The Pet class should have an _ _init_ _ method that creates these attributes. 
-    def __init__(self, name, animal_type, age):
+    def __init__(self, name="", animal_type="", age=0):
         # _ _name (for the name of a pet)
         self.__name = name
         # • _ _animal_type (for the type of animal that a pet is. Example values are ‘Dog’, ‘Cat’, and ‘Bird’)
