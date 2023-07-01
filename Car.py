@@ -24,7 +24,15 @@ class Car:
     def get_speed(self):
     # The get_speed method should return the current speed.
         return self.__speed
+    
+    def show(self):
+        print("Car Year Model:", self.__year_model)
+        print("Car Make:", self.__make)
+        print("Car initial speed:", self.__speed)
 # Next, design a program that creates a Car object then calls the accelerate method five times. 
 # After each call to the accelerate method, get the current speed of the car and display it. 
 # Then call the brake method five times. 
 # After each call to the brake method, get the current speed of the car and display it.
+
+car = Car(2001, "Honda")
+car.show()
